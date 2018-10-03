@@ -202,24 +202,176 @@ namespace Bucles
             //}
 
 
-            //Ejercicio 8:
-            //Escribe un programa que muestre los números de 1 a 12 en una columna.
-            //En la columna de al lado de los números impares mostrar el cuadrado de ese valor y en la de los pares mostrar el cubo.
+            ////Ejercicio 8:
+            ////Escribe un programa que muestre los números de 1 a 12 en una columna.
+            ////En la columna de al lado de los números impares mostrar el cuadrado de ese valor y en la de los pares mostrar el cubo.
 
-            for (int i = 1; i < 13; i++)
-            {
-                Console.WriteLine(i);
-                if (i = i+2)
-                {
-                    Console.WriteLine("\t" + Math.Pow(i, 2));
-                }
-                else
-                {
-                    Console.WriteLine("\t" + Math.Pow(i, 3));
-                }
-            }
+            //for (int i = 1; i < 13; i++)
+            //{
+            //    Console.Write(i);
+            //    if ((i % 2) == 0)
+            //    {
+            //        Console.WriteLine("\t" + "el cubo es = " + Math.Pow(i, 3));
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("\t" + "el cuadrado es = " + Math.Pow(i, 2));
+            //    }
+            //}
 
-           Console.ReadLine();
+
+            ////Ejercicio 9:
+            ////Mostrar en pantalla diez números, siendo el primero 1 y los siguientes la suma del número anterior y 5.
+            //int k = 1;
+            //Console.WriteLine(k);
+            //for (int i = 1; i < 11; i++)
+            //{
+            //    int suma;
+            //    suma = k + 5;
+            //    Console.WriteLine(suma);
+            //    k = suma;
+            //}
+
+            ////Ejercicio 11:
+            ////Crear un programa que muestre el valor de sumar todos los números desde 1 hasta el número que introduzca el usuario. 
+            ////Por ejemplo si introduce el 8 debería mostrar 36 (1 + 2+ 3+ 4+ 5+ 6+ 7+ 8)
+            //int num;
+            //int suma = 0;
+            //Console.WriteLine("introduzca numero");
+            //num = Convert.ToInt32(Console.ReadLine());
+            //for (int i = 0; i <= num; i++)
+            //{
+            //    suma = suma + i;
+            //}
+            //Console.WriteLine(suma);
+
+            ////Ejercicio 12:
+            ////Escribe un programa que muestre el resultado de sumar todos los números del 1 hasta el número introducido y 
+            ////que vuelva a pedirle al usuario otro número hasta que el usuario introduzca un 0
+
+            //int num;
+            //int suma = 0;
+            //Console.WriteLine("introduzca numero");
+            //num = Convert.ToInt32(Console.ReadLine());
+            //for (int i = 0; i <= num; i++)
+            //{
+            //    suma = suma + i;
+            //}
+            //Console.WriteLine(suma);
+            //int num1;
+            //Console.WriteLine("inserta otro numero");
+            //num1 = Convert.ToInt32(Console.ReadLine());
+            //while (num1 != 0)
+            //{
+            //    Console.WriteLine("inserta otro numero");
+            //    num1 = Convert.ToInt32(Console.ReadLine());
+            //}
+
+            //Ejercicio 13
+            //Escribe un programa que muestre el número entero positivo que el usuario introduzca pero al revés 
+            //(si introduce 1478 que muestre 8741), hasta que el usuario introduzca 0. 
+            //Si introduce 0 la primera vez, debería mostrarlo al revés (es decir, mostrar 0) y acabar el programa.
+            //int num;
+            //Console.WriteLine("inserte un numero");
+            //num = Convert.ToInt32(Console.ReadLine());
+
+
+            ////Ejercicio 14:
+            ////Un número factorial es el resultado de multiplicar todos los números de 1 a ese mismo número 
+            ////(por ejemplo el factorial de 4 es 1 x 2 x 3 x 4 = 24). 
+            ////Haz un programa que muestre los números del 1 al 10 en una columna con el resultado de su factorial 
+            ////en la columna de al lado.
+
+            //int factorial = 1;
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    Console.Write(i);
+            //    factorial = factorial * i;
+            //    Console.WriteLine("\t" + "y su factorial es = " + factorial);
+            //}
+
+
+
+            //Ejercicio 15:
+            //Escribe un programa que pida un número y muestre el resultado de sumar sus dígitos.
+            int num;
+            Console.WriteLine("introduzca un numero");
+            num = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i; i++)
+
+
+
+            ////Ejercicios STRING:
+                ////Ejercicio 1:
+                ////Escribe un programa que te calcule la largura de un string.
+                //string palabra;
+                //palabra = Console.ReadLine();
+                //Console.WriteLine(palabra.Length);
+
+
+         //Ejercicio 2:
+         //Escribe un programa que te separe los caracteres de un string
+         //string palabra;
+         //palabra = Console.ReadLine();
+         //for (int i = 0; i < palabra.Length; i++)
+         //{
+         //    Console.WriteLine(i);
+         //}
+
+         //Ejercicio 3:
+         //Escribe un programa que te calcule el total de palabras que hay en un string.
+         //string palabra;
+         //palabra = Console.ReadLine();
+         //Console.WriteLine(palabra.);
+
+         //Ejercicio 4:
+         //Escribe un programa que copia un string a otro string.
+         string a = "odisea";
+         string b = "";
+
+
+
+            ////Ejercicio 5:
+            ////Escribe un programa que nos cuente el número de vocales en un string.
+            //string palabra;
+            //int vocales = 0;
+            //Console.WriteLine("escribe una palabra");
+            //palabra = Console.ReadLine();
+
+            //for (int i = 0; i < palabra.Length; i++)
+            //{
+            //    if (palabra[i] == 'a' || palabra[i] == 'e' || palabra[i] == 'i' || palabra[i] == 'o' || palabra[i] == 'u')
+            //    {
+            //        vocales++;
+            //    }
+            //}
+            //Console.WriteLine("La palabra " + palabra + " tiene " + vocales + " vocales");
+
+
+            //Ejercicio 6:
+            //Escribe un programa que devuelva un string en minúsculas en mayúsculas y al revés.
+
+
+            ////Ejercicio 7:
+            ////Escribe un programa que evalúe si un string contiene la letra ‘r’.
+            //string palabra;
+            //palabra = Console.ReadLine();
+            //if (palabra.Contains("r"))
+            //    {
+            //    Console.WriteLine("SI");
+            //    }
+            //else
+            //    {
+            //    Console.WriteLine("NO");
+            //    }
+
+
+
+
+
+
+
+            Console.ReadLine();
         }
         
     }
