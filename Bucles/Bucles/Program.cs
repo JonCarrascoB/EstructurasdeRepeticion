@@ -301,69 +301,7 @@ namespace Bucles
 
 
 
-            ////Ejercicios STRING:
-                ////Ejercicio 1:
-                ////Escribe un programa que te calcule la largura de un string.
-                //string palabra;
-                //palabra = Console.ReadLine();
-                //Console.WriteLine(palabra.Length);
-
-
-         //Ejercicio 2:
-         //Escribe un programa que te separe los caracteres de un string
-         //string palabra;
-         //palabra = Console.ReadLine();
-         //for (int i = 0; i < palabra.Length; i++)
-         //{
-         //    Console.WriteLine(i);
-         //}
-
-         //Ejercicio 3:
-         //Escribe un programa que te calcule el total de palabras que hay en un string.
-         //string palabra;
-         //palabra = Console.ReadLine();
-         //Console.WriteLine(palabra.);
-
-         //Ejercicio 4:
-         //Escribe un programa que copia un string a otro string.
-         string a = "odisea";
-         string b = "";
-
-
-
-            ////Ejercicio 5:
-            ////Escribe un programa que nos cuente el número de vocales en un string.
-            //string palabra;
-            //int vocales = 0;
-            //Console.WriteLine("escribe una palabra");
-            //palabra = Console.ReadLine();
-
-            //for (int i = 0; i < palabra.Length; i++)
-            //{
-            //    if (palabra[i] == 'a' || palabra[i] == 'e' || palabra[i] == 'i' || palabra[i] == 'o' || palabra[i] == 'u')
-            //    {
-            //        vocales++;
-            //    }
-            //}
-            //Console.WriteLine("La palabra " + palabra + " tiene " + vocales + " vocales");
-
-
-            //Ejercicio 6:
-            //Escribe un programa que devuelva un string en minúsculas en mayúsculas y al revés.
-
-
-            ////Ejercicio 7:
-            ////Escribe un programa que evalúe si un string contiene la letra ‘r’.
-            //string palabra;
-            //palabra = Console.ReadLine();
-            //if (palabra.Contains("r"))
-            //    {
-            //    Console.WriteLine("SI");
-            //    }
-            //else
-            //    {
-            //    Console.WriteLine("NO");
-            //    }
+            
 
 
 
