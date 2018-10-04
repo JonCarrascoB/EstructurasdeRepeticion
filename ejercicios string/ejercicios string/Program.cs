@@ -187,20 +187,58 @@ namespace ejercicios_string
             //Ejercicio 10
             //Escribe un programa que al meter tres números por teclado identifique el mínimo y el máximo
             //(usa el método correspondiente). 
-            //int num, num2, num3;
-            //Console.WriteLine("inserte un numero");
-            //num = Convert.ToInt32(Console.ReadLine());
-            //Console.WriteLine("inserte otro numero");
-            //num2 = Convert.ToInt32(Console.ReadLine());
-            //Console.WriteLine("inserte otro numero");
-            //num3 = Convert.ToInt32(Console.ReadLine());
+            int num, num1, num2, num3, num4;
+
+            Console.WriteLine("inserte un numero");
+            num = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("inserte otro numero");
+            num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("inserte otro numero");
+            num2 = Convert.ToInt32(Console.ReadLine());
+            num3 = Math.Max(num, num1);
+            num4 = Math.Min(num, num1);
+            Console.WriteLine("El numero maximo es: " + Math.Max(num3,num2));
+            Console.WriteLine("El numero minimo es: " + Math.Min(num4,num2));
+
+
+            //if (num > num1 && Mnum > num2)
+            //{
+            //    Console.WriteLine("el numero maximo es: " + num);
+            //}
+            //else if (num1 > num && num1 > num2)
+            //{
+            //    Console.WriteLine("el numero maximo es: " + num1);
+            //}
+            //else if (num2 > num && num2 > num1)
+            //{
+            //    Console.WriteLine("el numero maximo es: " + num1);
+            //}
+            //else if (num2 < num && num2 < num1)
+            //{
+            //    Console.WriteLine("el numero minimo es: " + num2);
+            //}
+            //else if (num1 > num && num1 > num2)
+            //{
+            //    Console.WriteLine("el numero minimo es: " + num1);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("el numero minimo es: " + num);
+            //}
+
+
+
+            //for (int i = 0; ; i++)
 
 
 
             //Ejercicio 12
             //Escribe un programa que muestre la fecha de hoy.
-            
-            Console.WriteLine(DateTimekind());
+
+            //Console.WriteLine(DateTime.Now);
+            //Console.WriteLine(DateTime.Now.ToString("dd/mm/yyyy hh:mm"));
+            //Console.WriteLine(DateTime.Today.ToString("yyyy/MM/dd"));
+            //Console.WriteLine(DateTime.Today.ToString("dd/mm/yyyy"));
 
 
             Console.ReadLine();
